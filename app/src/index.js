@@ -8,15 +8,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 if (!window.ethereum) {
   root.render(
-    <React.StrictMode>
+    <div>
       You need to install a browser wallet to build the escrow dapp
-    </React.StrictMode>
+      </div>
   );
 } else {
   root.render(
-    <React.StrictMode>
+    
       <App />
-    </React.StrictMode>
+    
   );
 }
 

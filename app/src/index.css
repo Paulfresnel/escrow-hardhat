@@ -68,3 +68,47 @@ input[type="text"] {
   color: #5aa75a;
   text-align: center;
 }
+
+.bi-check-square-fill{
+  color: green;
+  font-size: 1.15rem;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.flex-box > div{
+  margin-right: 15px;
+}
+
+.existing-contracts{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  width: 1000px;
+}
+
+.pending{
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(90, 134, 255);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-shadow: 1px 2px 1px black;
+}
+
+td {
+  margin: 0 auto;
+  text-align: center;
+}
+
+th {
+  margin: 0 auto;
+  text-align: center;
+}
+

@@ -7,6 +7,7 @@ export default function Escrow({
 }) {
   return (
     <div className="existing-contract">
+      
       <ul className="fields">
         <li>
           <div> Arbiter </div>
